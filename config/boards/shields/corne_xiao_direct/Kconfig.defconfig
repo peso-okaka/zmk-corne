@@ -1,0 +1,9 @@
+if SHIELD_CORNE_XIAO_DIRECT_LEFT || SHIELD_CORNE_XIAO_DIRECT_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Corne Xiao Direct"
+
+config ZMK_SPLIT
+    default y
+
+endif
